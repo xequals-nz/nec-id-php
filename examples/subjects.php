@@ -8,9 +8,9 @@ $dotenv->load();
 $subject = new \NecId\Endpoints\Biometric\Subject();
 
 //print_r($subject->listSubjects(['length' => 2]));
-print_r($subject->listSubjects(['dir' => 'desc']));
+//print_r($subject->listSubjects());
 
-print_r($subject->unregisterSubject('22ff9ee1-5964-46dc-a220-384da3254bc4'));
+//print_r($subject->unregisterSubject('1516f602-07f9-4dd5-a257-98dc07b21aa4'));
 
 
 //print_r($subject->registerSubject([
